@@ -1,4 +1,3 @@
-
 # Dynamic Enum List
 
 ## Overview
@@ -7,16 +6,16 @@
 
 ## Features
 
-- **Dynamic Member Management**: Easily add or remove enum members at runtime.
-- **Dictionary-like Iteration**: Iterate through the enum members as key-value pairs.
-- **Easy Value Retrieval**: Access the values of enum members directly through attributes.
+-   **Dynamic Member Management**: Easily add or remove enum members at runtime.
+-   **Dictionary-like Iteration**: Iterate through the enum members as key-value pairs.
+-   **Easy Value Retrieval**: Access the values of enum members directly through attributes.
 
 ## Installation
 
 You can clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/dynamic-enum-list.git
+git clone https://github.com/Victor-Nikliaiev/Dynamic_enum_list.git
 ```
 
 ## Usage
@@ -50,12 +49,12 @@ Color.remove("RED")
 
 ## Methods
 
-- `__init__(self, name, dictionary)`: Initializes the enum list with a name and a dictionary of initial values.
-- `add(key, value)`: Adds a new key-value pair to the enum.
-- `remove(key)`: Removes a key from the enum.
-- `__getattr__(self, item)`: Retrieves the value of an enum member by its name.
-- `__iter__(self)`: Allows iteration over the enum members as dictionaries.
-- `__repr__(self)`: Returns a string representation of the enum list.
+-   `__init__(self, name, dictionary)`: Initializes the enum list with a name and a dictionary of initial values.
+-   `add(key, value)`: Adds a new key-value pair to the enum.
+-   `remove(key)`: Removes a key from the enum.
+-   `__getattr__(self, item)`: Retrieves the value of an enum member by its name.
+-   `__iter__(self)`: Allows iteration over the enum members as dictionaries.
+-   `__repr__(self)`: Returns a string representation of the enum list.
 
 ## License
 
